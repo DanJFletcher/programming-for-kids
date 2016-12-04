@@ -56,33 +56,3 @@ class Game extends Component {
 }
 
 export default Game;
-
-const node = {
-  neighbors: {
-    north: {
-      coords: "01",
-      type: "space",
-    }
-  }
-}
-
-const character = {
-  node: "Node",
-  facing: "North"
-}
-
-/**
- * Rules:
- * 
- * If forward
- *  check facing
- *    check tile at facing
- *      if tile is space: move to tile
- *      if tile is wall: don't move
- * 
- * routine: moveToTile
- *   move character to coords of facing tile
- *   if new tile type is exit: end game
- * 
- * 
- */
