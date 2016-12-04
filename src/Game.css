@@ -1,0 +1,138 @@
+body {
+  background-color: azure;
+}
+
+.Game {
+  text-align: center;
+  box-sizing: border-box;
+  max-width: 712px;
+  margin: 0 auto;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.Game-logo {
+  animation: Game-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Game-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Game-intro {
+  font-size: large;
+}
+
+.GameBoard {
+  width: 100%;
+  height: 100vw;
+  max-height: 712px;
+  border: 5px solid pink;
+  border-bottom: none;
+  background: black;
+  margin: 0 auto;
+}
+
+.Column {
+  width: 100%;
+  height: 33%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row; /* works with row or column */
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.Tile {
+  width: 33%;
+  height: 100%;
+  border: 2px solid pink;
+  background-color: #444;
+}
+
+/* Controls */
+
+.ControlPanel {
+  width: 100%;
+  height: 220px;
+  background: cyan;
+  margin: 0 auto;
+  border: 5px solid pink;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row; /* works with row or column */
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.ControlButton {
+  border: 2px solid pink;
+}
+
+.ControlTurnLeft {
+  height: 100%;
+  width: 33%;
+  background-color: coral;
+  font-size: 20px;
+}
+
+.CenterControl {
+  height: 100%;
+  width: 33%;
+  background-color: burlywood;
+}
+
+.ControlTurnRight {
+  height: 100%;
+  width: 33%;
+  background-color: maroon;
+}
+
+.ControlPanel i {
+  position: relative;
+  top: 45px;
+  font-size: 100px;
+  color: white;
+}
+
+.ControlForward, .ControlBack {
+  height: 49%;
+}
+
+.CenterControl i {
+  position: relative;
+  top: 15px;
+  font-size: 50px;
+  color: white;
+}
+
+.ControlLabelCenter {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+  top: -1px;
+}
+
+.ControlLabelSide {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+  top: 25px;
+}
+
+@keyframes Game-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
