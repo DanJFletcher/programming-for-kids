@@ -14,7 +14,7 @@ class GameBoard extends Component {
               </div>
               
               <div className="Column">
-                <tile />
+                <Tile />
                 <Tile />
                 <Tile />
               </div>
