@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './GameBoard.css';
+import Tile from './Tile';
 
 class GameBoard extends Component {
     render() {
@@ -7,21 +8,21 @@ class GameBoard extends Component {
             <div className="GameBoard">
             
               <div className="Column">
-                <div className="Tile"></div>
-                <div className="Tile"></div>
-                <div className="Tile"></div>
+                <Tile />
+                <Tile />
+                <Tile />
               </div>
               
               <div className="Column">
-                <div className="Tile"></div>
-                <div className="Tile"></div>
-                <div className="Tile"></div>
+                <Tile />
+                <Tile />
+                <Tile />
               </div>
               
               <div className="Column">
-                <div className="Tile"></div>
-                <div className="Tile"></div>
-                <div className="Tile"></div>
+                <Tile />
+                <Tile />
+                <Tile />
               </div>
             </div>
         );
