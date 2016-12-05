@@ -1,12 +1,7 @@
-// Dependancies
 import React, { Component } from 'react';
-
-// Styles
 import './Game.css';
-
-// Components
-import GameBoard from './GameBoard/GameBoard';
-import GameControls from './GameControls/GameControls';
+import GameBoard from './GameBoard';
+import GameControls from './GameControls';
 
 class Game extends Component {
   render() {
