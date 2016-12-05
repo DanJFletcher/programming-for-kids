@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Character from './Character';
+import Character from './';
 
 
 it('renders without crashing', () => {
