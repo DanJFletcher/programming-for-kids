@@ -1,6 +1,6 @@
 # Programming For Kids
 
-[![Build Status](https://travis-ci.org/DanJFletcher/programming-for-kids.svg?branch=master)](https://travis-ci.org/DanJFletcher/programming-for-kids)
+[![Build Status](https://travis-ci.org/DanJFletcher/programming-for-kids.svg?branch=master)](https://travis-ci.org/DanJFletcher/programming-for-kids) [![npm](https://img.shields.io/npm/v/npm.svg)](4.0.3) [![node](https://img.shields.io/node/v/gh-badges.svg)](7.2.0) [![GitHub version](https://badge.fury.io/gh/danjfletcher%2Fprogramming-for-kids.svg)](https://badge.fury.io/gh/danjfletcher%2Fprogramming-for-kids)
 
 A while back, a read an [article](https://medium.com/vehikl-news/10-ways-to-teach-kids-to-code-1c5e4b68a247) exploring various ways to teach young children how to program.
 
