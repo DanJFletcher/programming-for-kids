@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import './Game.css';
 
 // Components
-import GameBoard from './GameBoard/GameBoard';
+import GameBoard from './GameBoard';
 import GameControls from './GameControls';
 
 class Game extends Component {
